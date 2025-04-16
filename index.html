@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="app.js"></script>
+    <script defer src="app.js"></script>
     <title>Document</title>
   </head>
   <body>
     <header>
-      <h1 id="app-title">Soy el header de esta app</h1>
-      <menu>
+      <h1 id="app">Soy el header de esta app</h1>
+      <menu>  
         <ul>
           <li class="menu-items"><a href="#">Home</a></li>
           <li class="menu-items"><a href="#">About me</a></li>
@@ -19,14 +19,20 @@
       </menu>
     </header>
     <main>
-      <section>
-        <p>Soy el texto principal de esta app</p>
+      <h2>Soy el elemento previo del contenedor section</h2>
+      <section id="parent">
+        <h3>Soy el primer texto de este contenedor</h3>
+        <p>Soy el segundo texto de este contenedor</p>
+        <p>Soy el ultimo texto de este contenedor</p>
       </section>
+      <article>
+        <p>Soy el siguiente elemento del elemento padre con id parent secundario de esta app</p>
+      </article>
       <section>
         <p>Soy el texto secundario de esta app</p>
       </section>
       <section>
-        <p>Soy el texto secundario de esta app</p>
+        <input type="text" id="nombre" value="Nombre" class="input-clase" required>
       </section>
     </main>
   </body>
