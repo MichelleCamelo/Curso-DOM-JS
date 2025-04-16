@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const nextSibling = parent.nextElementSibling;
     console.log(nextSibling);
 });
-
+// 
 // // 📌 MANIPULACIÓN DE ATRIBUTOS Y PROPIEDADES
 // // Accedemos al input del DOM
 // const inputCelda = document.querySelector('#nombre');
