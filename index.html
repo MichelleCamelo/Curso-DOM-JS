@@ -1,39 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script defer src="app.js"></script>
-    <title>Document</title>
-  </head>
-  <body>
-    <header>
-      <h1 id="app">Soy el header de esta app</h1>
-      <menu>  
-        <ul>
-          <li class="menu-items"><a href="#">Home</a></li>
-          <li class="menu-items"><a href="#">About me</a></li>
-          <li class="menu-items"><a href="#">Blogs</a></li>
-          <li class="menu-items"><a href="#">Contacts</a></li>
-        </ul>
-      </menu>
-    </header>
-    <main>
-      <h2>Soy el elemento previo del contenedor section</h2>
-      <section id="parent">
-        <h3>Soy el primer texto de este contenedor</h3>
-        <p>Soy el segundo texto de este contenedor</p>
-        <p>Soy el ultimo texto de este contenedor</p>
-      </section>
-      <article>
-        <p>Soy el siguiente elemento del elemento padre con id parent secundario de esta app</p>
-      </article>
-      <section>
-        <p>Soy el texto secundario de esta app</p>
-      </section>
-      <section>
-        <input type="text" id="nombre" value="Nombre" class="input-clase" required>
-      </section>
-    </main>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer src="app.js"></script>
+  <title>Document</title>
+  <style>
+    .main-menu{
+      color: green;
+    }
+    .visible{
+      display: block;
+    }
+    .invisible{
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <header >
+    <h1 id="app">Soy el header de esta app</h1>
+    <menu class="menu">
+      <p>Hola este es el menu</p>
+      <ul>
+        <li class="menu-items"><a href="#">Home</a></li>
+        <li class="menu-items"><a href="#">About me</a></li>
+        <li class="menu-items"><a href="#">Blogs</a></li>
+        <li class="menu-items"><a href="#">Contacts</a></li>
+      </ul>
+    </menu>
+  </header>
+  <main>
+    <button>Toggle visibility</button>
+    <h2>Soy el elemento previo del contenedor section</h2>
+    <section id="parent">
+      <h3>Soy el primer texto de este contenedor</h3>
+      <p>Soy el segundo texto de este contenedor</p>
+      <p>Soy el ultimo texto de este contenedor</p>
+    </section>
+    <article>
+      <p>
+        Soy el siguiente elemento del elemento padre con id parent secundario
+        de esta app
+      </p>
+    </article>
+    <section>
+      <p>Soy el texto secundario de esta app</p>
+    </section>
+    <section>
+      <input type="text" id="nombre" value="Nombre" class="input-clase" required />
+    </section>
+  </main>
+  <div id="ejemplo">
+    <p>Texto visible</p>
+    <p style="display: none">Texto invisible</p>
+  </div>
+</body>
+
 </html>
