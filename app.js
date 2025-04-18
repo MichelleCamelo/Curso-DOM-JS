@@ -68,16 +68,16 @@
 // 📌 MODIFICANDO LA VISIBILIDAD DE ELEMENTOS HTML
 // Se crea una variable para el botón y otra para el menú
 
-const botonToggle = document.querySelector("button");
-const menu = document.querySelector(".menu");
-// Estilos anteriores
-const title = document.querySelector('h1');
-title.style.color = 'red';
-menu.style.backgroundColor = 'purple';
-menu.style.color = "green";
-menu.style.fontSize = "20px";
-/** AHORA: Agregamos un evento para el botón
-utilizamos el método toggle que tiene la propiedad classList */ 
-botonToggle.addEventListener('click', () => {
-    menu.classList.toggle("invisible");
-});
+// const botonToggle = document.querySelector("button");
+// const menu = document.querySelector(".menu");
+// // Estilos anteriores
+// const title = document.querySelector('h1');
+// title.style.color = 'red';
+// menu.style.backgroundColor = 'purple';
+// menu.style.color = "green";
+// menu.style.fontSize = "20px";
+// /** AHORA: Agregamos un evento para el botón
+// utilizamos el método toggle que tiene la propiedad classList */ 
+// botonToggle.addEventListener('click', () => {
+//     menu.classList.toggle("invisible");
+// });
