@@ -101,15 +101,15 @@
 // console.log(clonParagraph);
 // 🌟 SEGUNDO MÉTODO: replaceWith()
 // Seleccionar los elementos
-const list = document.querySelector('#listArea');
-const originalP = contentArea.querySelector('p');
-// Clonar el primer elemento p del contenedor padre
-const clonParagraph = originalP.cloneNode(true); // True para especificar que lo clone
-// Seleccionando el tercer elemento de la lista.
-const itemToReplace = list.children[2];
-// Reemplazar el elemento con replaceWith()
-itemToReplace.replaceWith(clonParagraph);
-// Añadido... Solo para aplicar estilos
-clonParagraph.textContent = 'Cambio del texto - Uso de replaceWith';
-clonParagraph.style.color = 'red';
-clonParagraph.style.fontSize = '25px';
+// const list = document.querySelector('#listArea');
+// const originalP = contentArea.querySelector('p');
+// // Clonar el primer elemento p del contenedor padre
+// const clonParagraph = originalP.cloneNode(true); // True para especificar que lo clone
+// // Seleccionando el tercer elemento de la lista.
+// const itemToReplace = list.children[2];
+// // Reemplazar el elemento con replaceWith()
+// itemToReplace.replaceWith(clonParagraph);
+// // Añadido... Solo para aplicar estilos
+// clonParagraph.textContent = 'Cambio del texto - Uso de replaceWith';
+// clonParagraph.style.color = 'red';
+// clonParagraph.style.fontSize = '25px';
