@@ -1,29 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script defer src="carrito.js"></script>
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-    <!-- beforebegin -->
+  <body>
     <section id="contentArea">
-        <!-- afterbegin -->
-        <p>Título del carrito</p>
-        <!-- beforeend -->
+      <h1>Título del carrito</h1>
+      <!-- append -->
     </section>
-    <!-- afterend -->
     <section>
-        <ul id="listArea">
-            <li>item 1</li>
-            <li>item 2</li>
-            <li>item 3</li>
-            <li>item 4</li>
-        </ul>
+      <ul id="listArea">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+      </ul>
     </section>
-</body>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f5eb;
+      }
 
+      h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 5rem;
+        background-color: bisque;
+        color: #8b2f0b;
+        margin-top: 0;
+        font-size: 24px;
+      }
+
+      #listArea {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 10px 20px 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      li {
+        margin-bottom: 8px;
+        margin-left: 3rem;
+        color: #333;
+      }
+
+      li:nth-child(odd) {
+        color: #5a5a0c;
+      }
+
+      li:nth-child(even) {
+        color: #8b2f0b;
+      }
+    </style>
+  </body>
 </html>

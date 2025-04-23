@@ -8,9 +8,16 @@
 //         console.log(item);
 //     });
 // });
-// 🌟 Como SÍ se debería hacer / con delegación y con validación
+// Método con getElementById
+const itemsChild = document.getElementById('soyunID');
+console.log(itemsChild);
+// Método con querySelector
 const listParent = document.querySelector('ul');
 console.log(listParent);
+
+// 🌟 Como SÍ se debería hacer / con delegación y con validación
+// const listParent = document.querySelector('ul');
+// console.log(listParent);
 // Se invoca al elemento declarado anteriormente 
 listParent.addEventListener('click', (e) => {
     // La variable "listItems" ayuda a guardar el método closest()  
